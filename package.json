@@ -1,0 +1,27 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Submission dicoding Belajar Membuat Aplikasi Back-End untuk Pemula",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ./"
+  },
+  "keywords": [
+    "dicoding bookshelf",
+    "dicoding submissions"
+  ],
+  "author": "Alif Triadi",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.0",
+    "nanoid": "^3.3.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
